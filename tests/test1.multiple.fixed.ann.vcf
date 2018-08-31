@@ -1,0 +1,51 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INDIVIDUAL=<NAME=AD113_sample,ID=c60bf78b-abb0-44eb-88e3-e0e4aaaafb44>
+##INFO=<ID=FMI_FUNCTIONAL_EFFECT,Number=.,Type=String,Description="FMI functional effect">
+##INFO=<ID=FMI_GENE,Number=.,Type=String,Description="FMI target gene symbol">
+##INFO=<ID=FMI_TRANSCRIPT,Number=.,Type=String,Description="FMI RefSeq transcript">
+##INFO=<ID=FMI_STATUS,Number=.,Type=String,Description="FMI variant status">
+##INFO=<ID=OriginalContig,Number=1,Type=String,Description="The name of the source contig/chromosome prior to liftover.">
+##INFO=<ID=OriginalStart,Number=1,Type=String,Description="The position of the variant on the source contig prior to liftover.">
+##center="NCI Genomic Data Commons (GDC)"
+##contig=<ID=chr1,length=248956422,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr2,length=242193529,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr3,length=198295559,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr4,length=190214555,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr5,length=181538259,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr6,length=170805979,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr7,length=159345973,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr8,length=145138636,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr9,length=138394717,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr10,length=133797422,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr11,length=135086622,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr12,length=133275309,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr13,length=114364328,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr14,length=107043718,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr15,length=101991189,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr16,length=90338345,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr17,length=83257441,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr18,length=80373285,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr19,length=58617616,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr20,length=64444167,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr21,length=46709983,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr22,length=50818468,assembly=GRCh38.d1.vd1>
+##contig=<ID=chrX,length=156040895,assembly=GRCh38.d1.vd1>
+##contig=<ID=chrY,length=57227415,assembly=GRCh38.d1.vd1>
+##contig=<ID=chrM,length=16569,assembly=GRCh38.d1.vd1>
+##fileDate=20170814
+##n.variants=4
+##reference=GRCh38.d1.vd1.fa
+##SnpEffVersion="4.3t (build 2017-11-24 10:18), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  GRCh37.p13.RefSeq test1.multiple.fixed.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	AD113_aliquot
+chr1	11293478	.	C	A	.	PASS	FMI_GENE=MTOR;FMI_FUNCTIONAL_EFFECT=missense;OriginalContig=chr1;FMI_TRANSCRIPT=NM_004958;OriginalStart=11293478;FMI_STATUS=unknown;ANN=A|missense_variant|MODERATE|MTOR|MTOR|transcript|NM_004958.3|protein_coding|15/58|c.2398G>T|p.Ala800Ser|2519/8725|2398/7650|800/2549||,A|missense_variant|MODERATE|MTOR|MTOR|transcript|XM_005263439.1|protein_coding|12/55|c.1717G>T|p.Ala573Ser|1912/8114|1717/6969|573/2322||,A|missense_variant|MODERATE|MTOR|MTOR|transcript|XM_005263440.1|protein_coding|15/36|c.2398G>T|p.Ala800Ser|2519/5713|2398/5187|800/1728||,A|missense_variant|MODERATE|MTOR|MTOR|transcript|XM_005263441.1|protein_coding|15/28|c.2398G>T|p.Ala800Ser|2522/4409|2398/4215|800/1404||,A|missense_variant|MODERATE|MTOR|MTOR|transcript|XM_005263438.1|protein_coding|15/58|c.2398G>T|p.Ala800Ser|2552/8754|2398/7650|800/2549||,A|downstream_gene_variant|MODIFIER|RPL39P6|RPL39P6|transcript|TRANSCRIPT_RPL39P6|pseudogene||n.*111C>A|||||111|,A|non_coding_transcript_exon_variant|MODIFIER|MTOR|MTOR|transcript|XR_244786.1|pseudogene|15/53|n.2519G>T||||||	GT:AD:DP	0/1:698,78:776
+chr17	7579358	.	C	G	.	PASS	FMI_GENE=TP53;FMI_FUNCTIONAL_EFFECT=missense;OriginalContig=chr17;FMI_TRANSCRIPT=NM_000546;OriginalStart=7579358;FMI_STATUS=likely;ANN=G|missense_variant|MODERATE|TP53|TP53|transcript|NM_000546.5|protein_coding|4/11|c.329G>C|p.Arg110Pro|531/2591|329/1182|110/393||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001126112.2|protein_coding|4/11|c.329G>C|p.Arg110Pro|528/2588|329/1182|110/393||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001126113.2|protein_coding|4/12|c.329G>C|p.Arg110Pro|531/2651|329/1041|110/346||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001126114.2|protein_coding|4/12|c.329G>C|p.Arg110Pro|531/2724|329/1026|110/341||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001126118.1|protein_coding|3/10|c.212G>C|p.Arg71Pro|648/2708|212/1065|71/354||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001276695.1|protein_coding|4/12|c.212G>C|p.Arg71Pro|531/2651|212/924|71/307||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001276696.1|protein_coding|4/12|c.212G>C|p.Arg71Pro|531/2724|212/909|71/302||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001276760.1|protein_coding|4/11|c.212G>C|p.Arg71Pro|531/2591|212/1065|71/354||,G|missense_variant|MODERATE|TP53|TP53|transcript|NM_001276761.1|protein_coding|4/11|c.212G>C|p.Arg71Pro|528/2588|212/1065|71/354||,G|missense_variant|MODERATE|TP53|TP53|transcript|XM_005256778.1|protein_coding|5/12|c.269G>C|p.Arg90Pro|458/2499|269/1122|90/373||,G|upstream_gene_variant|MODIFIER|TP53|TP53|transcript|NM_001126115.1|protein_coding||c.-825G>C|||||547|,G|upstream_gene_variant|MODIFIER|TP53|TP53|transcript|NM_001126116.1|protein_coding||c.-825G>C|||||547|,G|upstream_gene_variant|MODIFIER|TP53|TP53|transcript|NM_001126117.1|protein_coding||c.-825G>C|||||547|,G|upstream_gene_variant|MODIFIER|TP53|TP53|transcript|NM_001276697.1|protein_coding||c.-906G>C|||||547|,G|upstream_gene_variant|MODIFIER|TP53|TP53|transcript|NM_001276698.1|protein_coding||c.-906G>C|||||547|,G|upstream_gene_variant|MODIFIER|TP53|TP53|transcript|NM_001276699.1|protein_coding||c.-906G>C|||||547|,G|non_coding_transcript_exon_variant|MODIFIER|TP53|TP53|transcript|XR_243565.1|pseudogene|4/12|n.468G>C||||||,G|non_coding_transcript_exon_variant|MODIFIER|TP53|TP53|transcript|XR_243566.1|pseudogene|4/12|n.468G>C||||||	GT:AD:DP	0/1:196,557:753
+chr17	16004948	.	A	G	.	PASS	FMI_GENE=NCOR1;FMI_FUNCTIONAL_EFFECT=missense;OriginalContig=chr17;FMI_TRANSCRIPT=NM_006311;OriginalStart=16004948;FMI_STATUS=unknown;ANN=G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256866.1|protein_coding|21/48|c.2384T>C|p.Val795Ala|2636/9573|2384/7575|795/2524||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|NM_001190440.1|protein_coding|19/45|c.2354T>C|p.Val785Ala|2424/9286|2354/7014|785/2337||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|NM_006311.3|protein_coding|20/46|c.2306T>C|p.Val769Ala|2575/9794|2306/7323|769/2440||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256867.1|protein_coding|21/48|c.2384T>C|p.Val795Ala|2473/9410|2384/7575|795/2524||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256868.1|protein_coding|21/48|c.2381T>C|p.Val794Ala|2633/9570|2381/7572|794/2523||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256869.1|protein_coding|21/48|c.2384T>C|p.Val795Ala|2636/9570|2384/7572|795/2523||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256870.1|protein_coding|21/48|c.2384T>C|p.Val795Ala|2636/9570|2384/7572|795/2523||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256871.1|protein_coding|20/47|c.2357T>C|p.Val786Ala|2609/9546|2357/7548|786/2515||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256872.1|protein_coding|20/47|c.2354T>C|p.Val785Ala|2606/9543|2354/7545|785/2514||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256873.1|protein_coding|21/48|c.2336T>C|p.Val779Ala|2588/9525|2336/7527|779/2508||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256874.1|protein_coding|21/47|c.2384T>C|p.Val795Ala|2636/9399|2384/7401|795/2466||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256875.1|protein_coding|21/47|c.2384T>C|p.Val795Ala|2636/9345|2384/7347|795/2448||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|XM_005256876.1|protein_coding|21/48|c.2384T>C|p.Val795Ala|2636/9216|2384/7218|795/2405||,G|missense_variant|MODERATE|NCOR1|NCOR1|transcript|NM_001190438.1|protein_coding|17/19|c.2027T>C|p.Val676Ala|2097/3100|2027/2745|676/914||	GT:AD:DP	0/1:940,60:1000
+chrX	63411586	.	G	GTCATA	.	PASS	FMI_GENE=AMER1;FMI_FUNCTIONAL_EFFECT=frameshift;OriginalContig=chrX;FMI_TRANSCRIPT=NM_152424;OriginalStart=63411586;FMI_STATUS=unknown;ANN=GTCATA|frameshift_variant|HIGH|AMER1|AMER1|transcript|NM_152424.3|protein_coding|2/2|c.1576_1580dupTATGA|p.Leu528fs|1853/8443|1580/3408|527/1135||,GTCATA|frameshift_variant|HIGH|AMER1|AMER1|transcript|XM_005262242.1|protein_coding|2/3|c.1576_1580dupTATGA|p.Leu528fs|1853/3688|1580/2415|527/804||,GTCATA|frameshift_variant|HIGH|AMER1|AMER1|transcript|XM_005262241.1|protein_coding|3/3|c.745_749dupTATGA|p.Leu251fs|1013/2900|749/2577|250/858||;LOF=(AMER1|AMER1|3|1.00)	GT:AD:DP	0/1:325,604:929

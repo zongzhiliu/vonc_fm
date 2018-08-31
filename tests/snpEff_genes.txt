@@ -1,0 +1,55 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_HIGH	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_5_prime_UTR_variant	variants_effect_frameshift_variant	variants_effect_intron_variant	variants_effect_missense_variant	variants_effect_non_coding_transcript_exon_variant	variants_effect_splice_donor_variant	variants_effect_splice_region_variant	variants_effect_stop_gained	variants_effect_upstream_gene_variant
+AMER1	AMER1	NM_152424.3	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+AMER1	AMER1	XM_005262241.1	protein_coding	0	0	1	0	0	1	0	0	0	0	0	0
+AMER1	AMER1	XM_005262242.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+ARID2	ARID2	NM_152641.2	protein_coding	1	0	0	0	0	1	0	0	1	1	0	0
+ARID2	ARID2	XM_005268708.1	protein_coding	1	0	0	0	0	1	0	0	1	1	0	0
+BRAF	BRAF	NM_004333.4	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+BRAF	BRAF	XM_005250045.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+BRAF	BRAF	XM_005250046.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+BRAF	BRAF	XM_005250047.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+BRAF	BRAF	XR_242190.1		0	0	1	0	0	0	0	1	0	0	0	0
+FANCD2	FANCD2	NM_001018115.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+FANCD2	FANCD2	NM_033084.3	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+FANCD2	FANCD2	XM_005264946.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+FANCD2	FANCD2	XM_005264947.1	protein_coding	0	0	1	1	0	0	0	0	0	0	0	0
+FANCM	FANCM	NM_020937.2	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+FANCM	FANCM	XM_005267929.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+FGF23	FGF23	NM_020638.2	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+KEAP1	KEAP1	NM_012289.3	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+KEAP1	KEAP1	NM_203500.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+KEAP1	KEAP1	XM_005260173.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+KEAP1	KEAP1	XM_005260174.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+LRP1B	LRP1B	NM_018557.2	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+NRAS	NRAS	NM_002524.4	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+PAK7	PAK7	NM_020341.3	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+PAK7	PAK7	NM_177990.2	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+PAK7	PAK7	XM_005260764.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+PAK7	PAK7	XM_005260765.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+PAK7	PAK7	XM_005260766.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+PAK7	PAK7	XM_005260767.1	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+SMO	SMO	NM_005631.4	protein_coding	0	1	0	0	0	0	1	0	0	0	0	0
+TET2	TET2	NM_001127208.2	protein_coding	1	0	0	0	1	0	0	0	0	0	0	0
+TET2	TET2	NM_017628.4	protein_coding	1	0	0	0	1	0	0	0	0	0	0	0
+TET2	TET2	XM_005263082.1	protein_coding	1	0	0	0	1	0	0	0	0	0	0	0
+TET2	TET2	XR_244633.1		0	0	1	0	0	0	0	1	0	0	0	0
+TET2	TET2	XR_244634.1		0	0	1	0	0	0	0	1	0	0	0	0
+TP53	TP53	NM_000546.5	protein_coding	2	0	0	0	1	0	0	0	0	0	1	0
+TP53	TP53	NM_001126112.2	protein_coding	2	0	0	0	1	0	0	0	0	0	1	0
+TP53	TP53	NM_001126113.2	protein_coding	2	0	0	0	1	0	0	0	0	0	1	0
+TP53	TP53	NM_001126114.2	protein_coding	2	0	0	0	1	0	0	0	0	0	1	0
+TP53	TP53	NM_001126115.1	protein_coding	1	0	1	0	1	0	0	0	0	0	0	1
+TP53	TP53	NM_001126116.1	protein_coding	1	0	1	0	1	0	0	0	0	0	0	1
+TP53	TP53	NM_001126117.1	protein_coding	1	0	1	0	1	0	0	0	0	0	0	1
+TP53	TP53	NM_001126118.1	protein_coding	1	0	1	1	1	0	0	0	0	0	0	0
+TP53	TP53	NM_001276695.1	protein_coding	1	0	1	1	1	0	0	0	0	0	0	0
+TP53	TP53	NM_001276696.1	protein_coding	1	0	1	1	1	0	0	0	0	0	0	0
+TP53	TP53	NM_001276697.1	protein_coding	1	0	1	0	1	0	0	0	0	0	0	1
+TP53	TP53	NM_001276698.1	protein_coding	1	0	1	0	1	0	0	0	0	0	0	1
+TP53	TP53	NM_001276699.1	protein_coding	1	0	1	0	1	0	0	0	0	0	0	1
+TP53	TP53	NM_001276760.1	protein_coding	1	0	1	1	1	0	0	0	0	0	0	0
+TP53	TP53	NM_001276761.1	protein_coding	1	0	1	1	1	0	0	0	0	0	0	0
+TP53	TP53	XM_005256778.1	protein_coding	2	0	0	0	1	0	0	0	0	0	1	0
+TP53	TP53	XR_243565.1		0	0	2	0	0	0	0	2	0	0	0	0
+TP53	TP53	XR_243566.1		0	0	2	0	0	0	0	2	0	0	0	0
